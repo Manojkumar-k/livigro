@@ -24,7 +24,6 @@ Route::get('/reg', function () {
 });
 Route::get('/forg', function () {
     return view('forgot');
-}
 })->name('forgot');
 
 Route::get('/cart', function () {
